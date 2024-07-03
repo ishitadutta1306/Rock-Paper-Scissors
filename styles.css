@@ -6,6 +6,7 @@
     font-style: normal;
     font-variation-settings: "wdth" 100;
 }
+
 *{
     margin: 0;
     padding: 0;
@@ -16,6 +17,7 @@ body{
     min-height: 100vh;
     background-image: linear-gradient(180deg, #b5c6e0 0%, #c4d1e5 50%, #EBF4F5 100%);
 }
+
 h1{
     background-color: #081b31;
     color: white;
@@ -23,6 +25,7 @@ h1{
     height: 2.5rem;
     line-height: 2.5rem;
 }
+
 #choices{
     height: 6.25rem;
     display: flex;
@@ -40,12 +43,14 @@ h1{
     margin: 1rem;
     font-weight: 600;
 }
+
 #msg-container{
     margin-top: 5.5rem;
 }
 #msg{
     font-size: 1.5rem;
 }
+
 #scoreboard{
     display: flex;
     flex-wrap: wrap;
@@ -58,6 +63,7 @@ h1{
 #user-score, #comp-score, #draws-score{
     font-size: 2rem;
 }
+
 #reset-game{
     margin-top: 3rem;
 }
@@ -68,6 +74,7 @@ h1{
     height: 2.5rem; width: 5rem;
     border-radius: 1rem;
 }
+
 #footer{
     height: 2rem;
     display: flex;
