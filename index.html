@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <!-- <link id="favicon" rel="icon" href="favicon_2.png"> -->
+    <link rel="icon" href="images/rps.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Rock Paper Scissors Game</h1>
+
+    <!--User's weapon choice's div -->
+    <div id="choices">  
+         <div class="choice" id="Rock">
+            <img src="images/rock_2.png" alt="Rock">
+            <p>Rock</p>
+        </div>
+
+        <div class="choice" id="Paper">
+            <img src="images/paper_2.png" alt="Paper">
+            <p>Paper</p>
+        </div>
+
+        <div class="choice" id="Scissors">
+            <img src="images/scissors_2.png" alt="Scissors">
+            <p>Scissors</p>
+        </div>
+    </div>
+
+    <!--Message box to display who won & which weapon was used-->
+    <div id="msg-container">
+        <p id="msg">Play your move!</p>
+    </div>
+
+    <!--Scoreboard-->
+    <div id="scoreboard">
+        <div class="score">
+            <p id="user-score">0</p>
+            <p>You</p>
+        </div>
+
+        <div class="score">
+            <p id="comp-score">0</p>
+            <p>Computer</p>
+        </div>
+
+        <div class="score">
+            <p id="draws-score">0</p>
+            <p>Draws</p>
+        </div>
+    </div>
+
+    <!--Reset game-->
+    <div id="reset-game">
+        <button id="reset-btn">Reset</button>
+    </div>
+
+    <!--Footer-->
+    <div id="footer">
+        <a href="https://github.com/ishitadutta1306">     <!--repo link-->
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <p>Made by Ishita Dutta</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

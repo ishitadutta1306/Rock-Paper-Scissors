@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&display=swap');
+.noto-sans{
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans", sans-serif;
+    text-align: center;
+}
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(180deg, #b5c6e0 0%, #c4d1e5 50%, #EBF4F5 100%);
+}
+h1{
+    background-color: #081b31;
+    color: white;
+    font-size: 1.3rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+}
+#choices{
+    height: 6.25rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 3.5rem;
+}
+.choice img{
+    height: 6.25rem;
+}
+.choice:hover{
+    cursor: pointer;
+}
+.choice p{
+    margin: 1rem;
+    font-weight: 600;
+}
+#msg-container{
+    margin-top: 5.5rem;
+}
+#msg{
+    font-size: 1.5rem;
+}
+#scoreboard{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin-top: 2.5rem;
+    gap: 5rem;
+}
+#user-score, #comp-score, #draws-score{
+    font-size: 2rem;
+}
+#reset-game{
+    margin-top: 3rem;
+}
+#reset-btn{
+    background-color: #081b31;
+    color: white;
+    font-size: 1rem;
+    height: 2.5rem; width: 5rem;
+    border-radius: 1rem;
+}
+#footer{
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8rem;
+}
+#footer a{
+    margin-right: 0.5rem;
+}
